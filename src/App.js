@@ -37,6 +37,8 @@ import DummyUserProfile from "./Pages/DummyUser/DummyUserProfile";
 import AuctionCardDetails from "./components/AuctionCardDetails/AuctionCardDetails";
 import CreatorsDetails from "./Pages/CreatorsDetails/CreatorsDetails";
 import AnimatedLoader from "./Utils/AnimatedLoader/AnimatedLoader";
+import MainLogo from "./assets/gulfnftlogofinal-01.png";
+import Spinner from "./assets/spinner.svg";
 
 import "./App.css";
 
@@ -212,7 +214,16 @@ function App() {
               height: "100vh",
             }}
           >
-            <AnimatedLoader />
+            {/* <img
+              style={{ width: "auto", height: "100px" }}
+              src={Spinner}
+              alt="Spinner"
+            /> */}
+            <img
+              style={{ width: "auto", height: "400px" }}
+              src={MainLogo}
+              alt="MainLogo"
+            />
           </div>
         )}
       </div>
