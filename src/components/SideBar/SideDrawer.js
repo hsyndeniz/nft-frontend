@@ -36,6 +36,7 @@ import { useTranslation } from "react-i18next";
 // Logos
 import SideFooterLogoLight from "../../assets/sideFooterLogoLight.svg";
 import SideFooterLogoDark from "../../assets/sideFooterLogoDark.svg";
+import MainLogo from "../../assets/gulfnftlogofinal-07.png";
 
 // Profile sidemenu content
 const profileSideMenu = [
@@ -350,10 +351,10 @@ const SideDrawer = ({ darkMode, mobileOpen, handleDrawerToggle }) => {
         {!settingsExpanded && (
           <>
             {darkMode ? (
-              <img src={SideFooterLogoDark} alt="Side Footer Main Minto Logo" />
+              <img height={50} src={MainLogo} alt="Side Footer Main Minto Logo" />
             ) : (
-              <img
-                src={SideFooterLogoLight}
+              <img height={50}
+                src={MainLogo}
                 alt="Side Footer Main Minto Logo"
               />
             )}

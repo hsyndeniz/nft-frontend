@@ -202,7 +202,7 @@ const SideBar = ({ darkMode }) => {
                 {darkMode ? (
                   <img
                     width={120}
-                    style={{ display: "block", position: 'fixed', overflow: 'visible', left: '4.7%' }}
+                    style={{ display: "block" }}
                     src={MainLogo}
                     alt="Minto"
                   />
